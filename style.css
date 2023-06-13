@@ -1,0 +1,70 @@
+body {
+    font-size: 10pt;
+     background-image: url(/img/images.jpeg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+}
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 400px;
+}
+
+#para1 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#my_about {
+    font-size: 50px;
+    text-shadow: 0px 0px 5px black;
+    margin-top: 30px;
+}
+
+.car_img:hover {
+    transform: scale(1.1);
+}
+
+.text_gallary {
+    text-shadow: 0px 0px 5px white;
+    font-weight: bold;
+
+}
+
+label {
+    color: red;
+    font-size: 20px;
+}
+
+.location_span {
+    height: 50px;
+    width: 70px;
+    background-color: blue;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.my_list li a {
+    color: white;
+}
+
+.my_list li {
+    margin-top: 5px;
+}
+
+.container {
+    margin-top: 100px;
+}
+#image_service{
+    border-radius: 20px;
+    
+}
+.nov-item :hover .my_list{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
